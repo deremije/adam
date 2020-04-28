@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Roboto+Condensed:wght@300;400&family=Zilla+Slab:wght@600&display=swap" rel="stylesheet">
+    <title>George Donnelly, CPA</title>
+</head>
+<body>
+    <header>
+        <div class='header_left'>
+            George Donnelly, CPA
+        </div>
+        <div class='header_right'>
+            <div>
+                +33 (0)6 79 27 92 60
+            </div>
+            <div>
+                <a href='mailto:george@donnelly-cpa.com'>george@donnelly-cpa.com</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="parallax head_parallax">
+            <h1>George Donnelly, CPA</h1>
+            <h3>Your accountant between USA and France</h3>
+        </section>
+        
+        <section class='content'>
+            <h3>Welcome</h3>
+            <article>
+                <p>
+                    George Donnelly specializes in US taxes and return preparation for clients with U.S. tax issues.  I focus on tax return preparation for U.S. and non U.S. citizens, tax planning advice, representation of taxpayers in front of the IRS in audit situations, and related services.
+                </p>
+                <p>
+                    I am a boutique practice specializing in U.S. tax issues that arise for persons living outside the United States.  My clients consist primarily of U.S. citizens and long-term green card holders living in France. 
+                </p>
+                <p>
+                    The goal of my firm is to ensure that my client’s tax and business needs are fully met. I specialize in providing complete solutions to my clients with in-house services and through longstanding relationships with related service providers.
+                </p>
+            </article>
+            <h3>Services I Provide</h3>
+            <article>
+                <h4>Tax Preparation & Planning</h4>
+                <p>
+                    Effective tax preparation and planning can help you to minimize your future tax liability. We can
+                    help you proactively manage both your personal and your business tax issues, including
+                    understanding how upcoming business opportunities impact your tax status and vice versa. Not
+                    all tax planning opportunities are readily apparent. By having us on your team, you are more
+                    likely to benefit from those opportunities. We understand how the latest federal, state and local
+                    tax legislation and other developments affect you and your business and we are constantly
+                    identifying new ways to reduce federal, state or local tax liabilities.
+                </p>
+                <h4>IRS Representation</h4>
+                <p>
+                    An IRS audit can be an intimidating and complex process. If you or your business face an IRS
+                    audit, we can bring to bear years of experience in dealing with tax matters and IRS audit
+                    procedures to ensure that you are properly represented when dealing with the IRS and other tax
+                    authorities.
+                </p>
+            </article>
+            
+        </section>
+
+        <section class="parallax foot_parallax">
+        </section>
+
+        <section class='content'>
+            <h3>Meet George</h3>
+            <article class='about_me'>
+                <p class='about_upper'>
+                    George is a certified public accountant specializing in tax planning and preparation for US citizens resident abroad. As an expatriate himself, George fully understands the US and many foreign tax issues associated with living abroad. His international experience includes analyzing income tax treaty benefits, and assisting with transfer pricing documentation. George is also a Chartered Global Management Accountant and has a Master’s degree in Taxation from Golden Gate University. 
+                </p>
+                <img src='donnelly.jpeg' />
+                <p class='about_lower'>
+                    With more than 25 years experience, George is often called upon to speak for professional organizations and has authored articles on various tax-related topics.
+                </p>
+            </article>
+        </section>
+
+        <section class='content contact_grid'>
+            <div class='contact_form'>
+                <input type='text' name='name' id='name' />
+                <label>Name</label>
+                <input type='text' name='full_name' id='full_name' required />
+                <label>Email Address</label>
+                <input type='text' name='email' id='email' required />
+                <label>Telephone Number</label>
+                <input type='tel' name='phone' id='phone' required />
+                <label>Message</label>
+                <textarea id='message'></textarea>
+                <button type='button' id='send_button'>Send</button>
+            </div>
+            <div class='contact_me'>
+                <p>
+                    Please give me a call or email, or use the form to let me know how I can help you.  I'll get back to you just as soon as I can.
+                </p>
+            </div>
+        </section>
+
+        <footer>
+            <p>
+                +33 (0)6 79 27 92 60<br />
+                <a href='mailto:george@donnelly-cpa.com'>george@donnelly-cpa.com</a>
+            </p>
+            <p>
+                Copyright 2020 George Donnelly, CPA<br />
+                Site by <a href='https://jeremyrandall.dev' target='_blank'>Jeremy Randall</a>
+            </p>
+            <p>
+                Click to login to your
+                <a href='https://my.smartvault.com/' target='_blank'>SmartVault</a>
+            </p>
+        </footer>
+      </main>
+</body>
+</html>
+
+<style>
+
+    html,
+    body {
+        margin:0;
+        padding:0;
+        background-color: white;
+        overflow: hidden;
+        position: relative;
+    }
+    main {
+        height: 100vh;
+        overflow-x: hidden;
+        overflow-y: auto;
+        perspective: 3px;
+        position: relative;
+        padding: 0;
+    }
+    section {
+        position: relative;
+        background-color: white;
+        margin: 0;
+        padding: 0;
+    }
+    h1 {
+        font-size: 46px;
+        letter-spacing: 1.5px;
+        font-family: 'Zilla Slab', serif;
+        font-weight: 600;
+    }
+    h3 {
+        font-size: 36px;
+        letter-spacing: .5px;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 700;
+    }
+    h4 {
+        font-size: 22px;
+        letter-spacing: .25px;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 400;
+    }
+    p {
+        font-size: 24px;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: 300;
+    }
+    
+    header {
+        width: calc(100% - 40px);
+        height: 60px;
+        padding: 0 20px 25px 20px;
+        background: linear-gradient(to top,  #B1BCC400, #D4DBDA);
+        color: #1D1F25;
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+    header .header_right {
+        display: flex;
+        justify-content: flex-end;
+        padding: 0 20px 0 0;
+    }
+    header div {
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        padding: 20px;
+        height: 20px;
+        line-height: 20px;
+        font-family: 'Manrope', sans-serif;
+        font-size: 16px;
+    }
+    header div a {
+        text-decoration: none;
+        color: #1D1F25;
+        cursor: pointer;
+    }
+    .head_parallax {
+        position: relative;
+        top: -45px;
+    }
+    .head_parallax::after {
+        background-image: url('golden_gate.jpg');
+        background-position-y: 42%;
+    }
+    .head_parallax h1 {
+        position: absolute;
+        top: 87px;
+        right: 40px;
+        color: #1a1a55;
+    }
+    .head_parallax h3 {
+        position: absolute;
+        top: 163px;
+        font-size: 23px;
+        right: 40px;
+        color: #1a1a5588;
+    }
+    .content {
+        width: 1200px;
+        padding: 20px calc(50% - 600px) 70px;
+        margin: auto;
+    }
+    .contact_grid {
+        width: 1000px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        grid-column-gap: 80px;
+    }
+    .content h3 {
+        padding-top: 50px;
+        padding-left: 0;
+    }
+    .content p {
+        margin: auto;
+        color: #1a1a55;
+        padding: 0 0 20px 0;
+    }
+    .foot_parallax::after {
+        background-image: url('cote_dazur.jpg');
+        transform: translateZ(-1px) scale(-1.5, 1.5);
+        background-position-y: center;
+        background-position-y: 42%;
+    }
+    .about_me {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 240px;
+        grid-column-gap: 60px;
+    }
+    .about_me img {
+        width: 240px;
+        height: auto;
+        transform: translateY(calc(50% - 120px));
+    }
+    .contact_form {
+        width: 300px;
+        margin: auto;
+        font-size: 16px;
+    }
+    label {
+        font-size: 18px;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 400;
+    }
+    input,
+    textarea {
+        display: block;
+        width: calc(100% - 20px);
+        padding: 5px 10px;
+        margin: 10px 0 20px 0;
+        border-radius: 5px;
+        font-size: 18px;
+    }
+    input {
+        height: 18px;
+        font-size: 18px;
+        text-align: left;
+    }
+    textarea {
+        height: 60px;
+        line-height: 20px;
+    }
+    #name {
+        display: none;
+    }
+    button {
+        height: 35px;
+        width: 210px;
+        text-transform: uppercase;
+        font-size: 18px;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 600;
+        background-color: #D4DBDA;
+        display: block;
+        margin: auto;
+        cursor: pointer;
+    }
+    .contact_me {
+        display: flex;
+        padding: 0 20px;
+    }
+    .contact_me p {
+        display: block;
+        margin: auto;
+        text-align: left;
+    }
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 1200px;
+        background: linear-gradient(to top, #B1BCC4, white);
+        color: #1a1a1a;
+        padding: 20px calc(50% - 600px);
+    }
+    footer p {
+        width: auto;
+        height: 20px;
+        line-height: 20px;
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Manrope', sans-serif;
+        font-size: 16px;
+        margin: 0;
+        padding: 20px 0;
+    }
+
+    /* parallax screens functionality */
+    .parallax {
+        background-color: transparent;
+        height: 50vh;
+    }
+    .parallax::after {
+        content: " ";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        transform: translateZ(-1px) scale(1.5);
+        background-size: 100%;
+        z-index: -1;
+    }
+
+    @media screen and (max-width: 1500px) {
+        .content {
+            width: 900px;
+            padding: 20px calc(50% - 450px) 70px;
+        }
+        .contact_grid {
+            width: 700px;
+        }
+        .about_lower {
+            grid-column: 1 / span 2;
+        }
+    }
+
+    @media screen and (max-width: 1200px) {
+        .content {
+            width: 600px;
+            padding: 20px calc(50% - 300px) 70px;
+        }
+        .contact_grid {
+            width: 600px;
+        }
+        .about_me {
+            grid-template-columns: 240px 1fr;
+        }
+        .about_upper {
+            grid-column: 1 / span 2;
+        }
+        .about_lower {
+            grid-column: 2 / span 1;
+        }
+        footer {
+            width: 900px;
+            padding: 20px calc(50% - 450px);
+        }
+        footer p {
+            width: 300px;
+        }
+    }
+
+    @media screen and (max-width: 950px) {
+        .head_parallax h1 {
+            top: auto;
+            bottom: 20px;
+            right: 40px;
+            font-size: 40px;
+            color: white;
+        }
+        .head_parallax h3 {
+            top: auto;
+            bottom: -10px;
+            right: 40px;
+            font-size: 24px;
+            color: white;
+        }
+    }
+
+    @media screen and (max-width: 900px) {
+        footer {
+            width: 300px;
+            padding: 20px calc(50% - 150px);
+            display: block;
+        }
+    }
+    @media screen and (max-width: 767px) {
+        header {
+            display: none;
+        }
+        .head_parallax {
+            top: -33px;
+        }
+        .head_parallax h1 {
+            top: auto;
+            bottom: 20px;
+            right: 10px;
+            font-size: 40px;
+            color: white;
+        }
+        .head_parallax h3 {
+            top: auto;
+            bottom: -10px;
+            right: 10px;
+            font-size: 24px;
+            color: white;
+        }
+        .parallax::after {
+            transform: none;
+            background-size: auto 150%;
+            background-position-x: 40%;
+            background-repeat: no-repeat;
+        }
+    }
+
+    @media screen and (max-width: 640px) {
+        main {
+            perspective: 0px;
+        }
+        h3 {
+            font-size: 30px;
+        }
+        h4 {
+            font-size: 20px;
+        }
+        .parallax {
+            height: 40vh;
+        }
+        .head_parallax {
+            top: 0;
+        }
+        .head_parallax h1 {
+            bottom: 40px;
+            font-size: 24px;
+        }
+        .head_parallax h3 {
+            bottom: 10px;
+            font-size: 14px;
+        }
+        .content {
+            width: calc(100% - 40px);
+            padding: 20px;
+            display: block;
+        }
+        .content h3 {
+            padding-top: 0;
+        }
+        .content p {
+            font-size: 16px;
+        }
+        .contact_me {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 450px) {
+        .parallax::after {
+            background-size: auto 100%;
+        }
+        .contact_grid {
+            width: 280px;
+        }
+        .contact_form {
+            width: 100%;
+        }
+        label {
+            font-size: 14px;
+        }
+        .about_me {
+            display: block;
+        }
+        .about_me img {
+            margin: 20px auto;
+            display: block;
+        }
+        footer p {
+            font-size: 14px;
+        }
+    }
+</style>
+
+<script>
+    const name = document.getElementById('name');
+    const full_name = document.getElementById('full_name');
+    const email = document.getElementById('email');
+    const phone = document.getElementById('phone');
+    const message = document.getElementById('message');
+    const send_button = document.getElementById('send_button');
+    const email_1 = 'george@do';
+    const email_2 = 'nnelly-cpa.com';
+    window.onload = () => {
+        send_button.addEventListener("click", () => {
+            
+            if (name.value.length > 0) {
+                // bot detector, does not send anything if this is filled in.
+            } else if (full_name.value.length > 0 && message.value.length > 0 && /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,})+$/.test(email.value)) {
+                if (email.value.includes('@gmail.com')) {
+                    window.open(`https://mail.google.com/mail/?view=cm&fs=1&to=${email_1}${email_2}&su=Message From Website&body=Name: ${full_name.value}, Email: ${email.value}, Phone: ${phone.value}, Message: ${message.value}`);
+                } else {
+                    window.open(`mailto:${email_1}${email_2}?subject=Message From Website&body=Name: ${full_name.value}, Email: ${email.value}, Phone: ${phone.value}, Message: ${message.value}`);
+                }
+            } else {
+                // failed validation - name or message is missing, or email is not in proper format.
+            }
+        })
+    }
+</script>
