@@ -81,13 +81,13 @@
         <section class='content contact_grid'>
             <div class='contact_form'>
                 <input type='text' name='name' id='name' />
-                <label>Name</label>
+                <label>Name *</label>
                 <input type='text' name='full_name' id='full_name' required />
-                <label>Email Address</label>
+                <label>Email Address *</label>
                 <input type='text' name='email' id='email' required />
                 <label>Telephone Number</label>
                 <input type='tel' name='phone' id='phone' required />
-                <label>Message</label>
+                <label>Message *</label>
                 <textarea id='message'></textarea>
                 <button type='button' id='send_button'>Send</button>
             </div>
@@ -525,6 +525,7 @@
                 }
             } else {
                 // failed validation - name or message is missing, or email is not in proper format.
+                alert("Please ensure you've entered name, email, and a message.  Email must be like name@company.com");
             }
         })
     }
