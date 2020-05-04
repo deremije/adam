@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jeremy Randall">
+    <meta name="description" content="George Donnelly, CPA, is a certified public accountant specializing in tax planning and preparation for US citizen residing abroad.">
+    <meta name="keywords" content="CPA, accountant, expat, expatriate, United States, France, tax, taxes, double taxation">
     <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Roboto+Condensed:wght@300;400&family=Zilla+Slab:wght@600&display=swap" rel="stylesheet">
     <title>George Donnelly, CPA</title>
 </head>
@@ -69,7 +72,7 @@
             <h3>Meet George</h3>
             <article class='about_me'>
                 <p class='about_upper'>
-                    George is a certified public accountant specializing in tax planning and preparation for US citizens resident abroad. As an expatriate himself, George fully understands the US and many foreign tax issues associated with living abroad. His international experience includes analyzing income tax treaty benefits, and assisting with transfer pricing documentation. George is also a Chartered Global Management Accountant and has a Master’s degree in Taxation from Golden Gate University. 
+                    George is a certified public accountant specializing in tax planning and preparation for US citizens residing abroad. As an expatriate himself, George fully understands the US and many foreign tax issues associated with living abroad. His international experience includes analyzing income tax treaty benefits, and assisting with transfer pricing documentation. George is also a Chartered Global Management Accountant and has a Master’s degree in Taxation from Golden Gate University. 
                 </p>
                 <img src='donnelly.jpeg' />
                 <p class='about_lower'>
@@ -81,13 +84,13 @@
         <section class='content contact_grid'>
             <div class='contact_form'>
                 <input type='text' name='name' id='name' />
-                <label>Name *</label>
+                <label>Name</label>
                 <input type='text' name='full_name' id='full_name' required />
-                <label>Email Address *</label>
+                <label>Email Address</label>
                 <input type='text' name='email' id='email' required />
                 <label>Telephone Number</label>
                 <input type='tel' name='phone' id='phone' required />
-                <label>Message *</label>
+                <label>Message</label>
                 <textarea id='message'></textarea>
                 <button type='button' id='send_button'>Send</button>
             </div>
@@ -105,7 +108,7 @@
             </p>
             <p>
                 Copyright 2020 George Donnelly, CPA<br />
-                Site by <a href='https://jeremyrandall.dev' target='_blank'>Jeremy Randall</a>
+                Site by <a href='https://www.deremije.com' target='_blank'>Jeremy Randall</a>
             </p>
             <p>
                 Click to login to your
@@ -203,17 +206,17 @@
     }
     .head_parallax::after {
         background-image: url('golden_gate.jpg');
-        background-position-y: 33%;
+        background-position-y: 42%;
     }
     .head_parallax h1 {
         position: absolute;
-        top: 77px;
+        top: 87px;
         right: 40px;
         color: #1a1a55;
     }
     .head_parallax h3 {
         position: absolute;
-        top: 153px;
+        top: 163px;
         font-size: 23px;
         right: 40px;
         color: #1a1a5588;
@@ -525,7 +528,6 @@
                 }
             } else {
                 // failed validation - name or message is missing, or email is not in proper format.
-                alert("Please ensure you've entered name, email, and a message.  Email must be like name@company.com");
             }
         })
     }
