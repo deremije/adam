@@ -210,25 +210,18 @@
     }
     .head_parallax .card {
         background-color: #FFFFFFBB;
+        color: #1a1a55;
         position: absolute;
         top: 107px;
         right: 40px;
-        height: 200px;
-        padding: 0 20px;
+        padding: 0 20px 20px 20px;
         border-radius: 10px;
-    }
-    .head_parallax h1 {
-        /* position: absolute;
-        top: 87px;
-        right: 40px; */
-        color: #1a1a55;
     }
     .head_parallax h3 {
         /* position: absolute;
         top: 163px; */
         font-size: 23px;
         /* right: 40px; */
-        color: #1a1a5588;
     }
     .content {
         width: 1200px;
@@ -399,19 +392,16 @@
     }
 
     @media screen and (max-width: 950px) {
-        .head_parallax h1 {
-            top: auto;
-            bottom: 20px;
-            right: 40px;
-            font-size: 40px;
-            color: white;
-        }
-        .head_parallax h3 {
+        .head_parallax .card {
             top: auto;
             bottom: -10px;
             right: 40px;
+        }
+        .head_parallax h1 {
+            font-size: 40px;
+        }
+        .head_parallax h3 {
             font-size: 24px;
-            color: white;
         }
     }
 
@@ -429,19 +419,16 @@
         .head_parallax {
             top: -33px;
         }
-        .head_parallax h1 {
-            top: auto;
-            bottom: 20px;
-            right: 10px;
-            font-size: 40px;
-            color: white;
-        }
-        .head_parallax h3 {
+        .head_parallax .card {
             top: auto;
             bottom: -10px;
             right: 10px;
+        }
+        .head_parallax h1 {
+            font-size: 40px;
+        }
+        .head_parallax h3 {
             font-size: 24px;
-            color: white;
         }
         .parallax::after {
             transform: none;
@@ -467,12 +454,13 @@
         .head_parallax {
             top: 0;
         }
+        .head_parallax .card {
+            bottom: 10px;
+        }
         .head_parallax h1 {
-            bottom: 40px;
             font-size: 24px;
         }
         .head_parallax h3 {
-            bottom: 10px;
             font-size: 14px;
         }
         .content {
